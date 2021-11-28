@@ -1,0 +1,37 @@
+.add-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-control {
+  font-size: 20px;
+  width: 100%;
+  margin: 6px 12px;
+  font-weight: 500;
+}
+
+.form-control label {
+  margin: 6px 12px;
+}
+
+.form-control input {
+  outline: none;
+  border-radius: 6px;
+  height: 30px;
+  width: 50%;
+  margin: 6px 12px;
+  padding: 0px 6px;
+}
+
+.submit-button {
+  width: 20%;
+}
+
+.submit-button input {
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  height: 30px;
+  width: 100%;
+}
